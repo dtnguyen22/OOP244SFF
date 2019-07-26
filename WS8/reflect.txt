@@ -1,0 +1,35 @@
+// Workshop 8 - Virtual Functions and Abstract Base Classes
+// File: reflect.txt
+// DucTai Nguyen - 147942171 - dtnguyen22@myseneca.ca
+///////////////////////////////////////////////////
+
+
+from this workshop i learned:
+1. the difference between:
+an abstract base class contains or inherits at least one virtual function
+while a concrete class implement that abstract class.
+2. credit and debit function from ChequingAccount class and SavingsAccount class
+shadows those of Account class.
+3. I also understand how to use dynamic object
+we create an object of base class, and depends on condition, we can change the type
+of that object to others derived class in same hierachy.
+
+quizz reflection:
+1. 
+- Polymorphic object can change its type throughout its lifetime
+- Functions are declared with a virtual class is not in derived class,
+it should be in interfaces or abstract class
+2.
+bp first shows derived class show function
+then it shows base class show function
+3.
+new Derive(); calls Base class constructor and print "Constructor Base" before
+call Derive class constructor and print "Constructor Derived"
+delete Var; on the other hand, call Derive class Destructor first, then call base
+class destructor.
+5.
+template syntax
+template <type identifier, ...>
+ex: template <typename T>
+typename and class can be used interchangable
+

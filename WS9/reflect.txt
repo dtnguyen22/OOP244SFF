@@ -1,0 +1,21 @@
+// Workshop 9 - Function Templates
+// File: Data.cpp
+// DucTai Nguyen - dtnguyen22@myseneca.ca - 147942171
+///////////////////////////////////////////////////
+
+WS9
+1. when i tried to put template function definition in seperate .cpp file and compile it, 
+there is errors: unresolved external 
+If I move all the template function definition to .h file, it will compile all the files
+successfully.
+For example, template Readrow function:
+what compiler is doing here is, it finds the function declaration in .h file for function call
+in main file to replace each appearance of T to the actual type passed to the function call.
+If we seperate template function its implementation. 
+I think complier only replaces T in header file, not in the implementation file,
+which means function call can not find its implementation and leads to UNRESOVLED external error. 
+2. Yes we can put read, readrow and display above main function to make it run, but we have to 
+put it in namespace sict or use resolution opeprator to prevent the compiler from confusing.
+3.Yes I can do i without templates but it will have a lot of code duplication.
+Using template is better for functions which have same logic but different parameter type.
+4. Yes they are quivalent.
