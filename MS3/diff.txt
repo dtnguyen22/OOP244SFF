@@ -1,0 +1,14 @@
+In line number 73 of your output:
+The output should be:
+  s: abcd   |Jacket              |  12.30|  11|n/a       |  22|
+                                     ^
+But your output is: 
+  s: abcd   |Jacket              |  13.90|  11|n/a       |  22|
+                                     ^
+
+Unmatched character details:
+The character in column 38 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [3] ASCII code(51)
+
