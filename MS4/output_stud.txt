@@ -1,0 +1,31 @@
+Script started on Tue 30 Jul 2019 06:32:32 PM EDT
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Linear: one two 
+As is: 
+one
+two
+
+Enter the following: 
+three<ENTER>
+four<ENTER>
+Press: Ctrl^D
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+sku match
+Good < Perishable
+45|32|131|32
+113.5
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Tue 30 Jul 2019 06:32:42 PM EDT
